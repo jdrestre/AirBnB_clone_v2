@@ -1,6 +1,6 @@
 ---
 <h1 align="center">0x02. AirBnB clone</h1>
-<p align="center">MySQL.</p>
+<p align="center">MySQL. and Deploy static</p>
 
 ![N|Solid](https://github.com/jdrestre/pictures-holberton-projects/blob/master/AirBnB_clone_v2_MySQL/hbnb_logo.png)
 
