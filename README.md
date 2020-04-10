@@ -2,22 +2,44 @@
 <h1 align="center">0x02. AirBnB clone</h1>
 <p align="center">MySQL. and Deploy static</p>
 
-![N|Solid](https://github.com/jdrestre/pictures-holberton-projects/blob/master/AirBnB_clone_v2_Deploy_Static/aribnb_diagram_0%20deploy%20static.jpg)
-
 ![N|Solid](https://github.com/jdrestre/pictures-holberton-projects/blob/master/AirBnB_clone_v2_MySQL/hbnb_logo.png)
 
 ---
 ## Description Project
 
+### MySQL Mapping
 ![N|Solid](https://github.com/jdrestre/pictures-holberton-projects/blob/master/AirBnB_clone_v2_MySQL/mapping_project_mysql_airbnb-hbnb_step2.png)
+
+
+### Web static diagram
+![N|Solid](https://github.com/jdrestre/pictures-holberton-projects/blob/master/AirBnB_clone_v2_Deploy_Static/aribnb_diagram_0%20deploy%20static.jpg)
 
 
 ## General
 
 ---
-MySql|Web Static
+### MySql
+- What is Unit testing and how to implement it in a large project
+- What is *args and how to use it
+- What is **kwargs and how to use it
+- How to handle named arguments in a function
+- How to create a MySQL database
+- How to create a MySQL user and grant it privileges
+- What ORM means
+- How to map a Python Class to a MySQL table
+- How to handle 2 different storage engines with the same codebase
+- How to use environment variables|
+
+### Web Static
 ---|---
-- What is Unit testing and how to implement it in a large project - What is *args and how to use it - What is **kwargs and how to use it - How to handle named arguments in a function - How to create a MySQL database - How to create a MySQL user and grant it privileges - What ORM means - How to map a Python Class to a MySQL table - How to handle 2 different storage engines with the same codebase - How to use environment variables| - What is Fabric - How to deploy code to a server easily - What is a tgz archive - How to execute Fabric command locally - How to execute Fabric command remotely - How to transfer files with Fabric - How to manage Nginx configuration - What is the difference between root and alias in a Nginx configuration
+- What is Fabric
+- How to deploy code to a server easily
+- What is a tgz archive
+- How to execute Fabric command locally
+- How to execute Fabric command remotely
+- How to transfer files with Fabric
+- How to manage Nginx configuration
+- What is the difference between root and alias in a Nginx configuration
 
 ---
 ## Diagram Class
@@ -212,15 +234,6 @@ Or you can specify a single test file:
 $ python3 unittest -m tests/test_console.py
 ```
 
-
-## Task Project AirBnB-clone Web Static
----
-File Name|Task Name|Task Description
----|---|---
-[0-setup_web_static.sh](https://github.com/jdrestre/AirBnB_clone_v2/blob/master/0-setup_web_static.sh)|0. Prepare your web servers|Write a Bash script that sets up your web servers for the deployment of web_static.
-
-
-
 ---
 ## Task Project AirBnB-clone MySQL
 ---
@@ -237,6 +250,14 @@ File Name|Task Name|Task Description
 [models/place.py](https://github.com/monoprosito/AirBnB_clone_v2/blob/master/models/place.py), [models/user.py](https://github.com/monoprosito/AirBnB_clone_v2/blob/master/models/user.py), [models/city.py](https://github.com/monoprosito/AirBnB_clone_v2/blob/master/models/city.py)|8. DBStorage - Place|Update Place: (models/place.py)
 [models/review.py](https://github.com/monoprosito/AirBnB_clone_v2/blob/master/models/review.py), [models/user.py](https://github.com/monoprosito/AirBnB_clone_v2/blob/master/models/user.py), [models/place.py](https://github.com/monoprosito/AirBnB_clone_v2/blob/master/models/place.py)|9. DBStorage - Review|Update Review: (models/review.py)
 [models/amenity.py](https://github.com/monoprosito/AirBnB_clone_v2/blob/master/models/amenity.py), [models/place.py](https://github.com/monoprosito/AirBnB_clone_v2/blob/master/models/place.py)|10. DBStorage - Amenity... and BOOM!|Update Amenity: (models/amenity.py)
+
+
+## Task Project AirBnB-clone Web Static
+---
+File Name|Task Name|Task Description
+---|---|---
+[0-setup_web_static.sh](https://github.com/jdrestre/AirBnB_clone_v2/blob/master/0-setup_web_static.sh)|0. Prepare your web servers|Write a Bash script that sets up your web servers for the deployment of web_static.
+
 
 
 ---
