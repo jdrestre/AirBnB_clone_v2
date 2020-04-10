@@ -11,10 +11,12 @@
 
 ![N|Solid](https://github.com/jdrestre/pictures-holberton-projects/blob/master/AirBnB_clone_v2_MySQL/mapping_project_mysql_airbnb-hbnb_step2.png)
 
+
+## General
+
 ---
 MySql|Web Static
 ---|---
-## General
 - What is Unit testing and how to implement it in a large project
 - What is *args and how to use it
 - What is **kwargs and how to use it
