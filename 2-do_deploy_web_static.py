@@ -10,9 +10,8 @@ import os.path
 env.hosts = ['34.74.80.43', '54.89.185.132']
 
 
-
 def do_pack():
-    """ Generates a .tgz tar gzipped archive from the contents
+    """Generates a .tgz tar gzipped archive from the contents
         of the web_static folder of your AirBnB Clone repo
     """
     dt = datetime.utcnow()
@@ -37,7 +36,8 @@ def do_deploy(archive_path):
 
     if put(archive_path, "/tmp/{}".format(file)).failed is True:
         return False
-    if run("sudo rm -rf /data/web_static/releases/{}/".format(name)).failed is True:
+    if run("sudo rm -rf /data/web_static/releases/{}/".
+           format(name)).failed is True:
         return False
     if run("sudo mkdir -p /data/web_static/releases/{}/".
            format(name)).failed is True:
