@@ -78,7 +78,7 @@ def do_clean(number=0):
     archives = sorted(os.listdir("versions"))
     [archives.pop() for i in range(number)]
     with lcd("versions"):
-        [local("sudo rm ./{}".format(a)) for a in archives]
+        [local("rm ./{}".format(a)) for a in archives]
 
     with cd("sudo /data/web_static/releases"):
         archives = run("ls -tr").split()
