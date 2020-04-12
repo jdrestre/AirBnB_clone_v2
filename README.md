@@ -255,9 +255,10 @@ File Name|Task Name|Task Description
 ---
 File Name|Task Name|Task Description
 ---|---|---
-[0-setup_web_static.sh](https://github.com/jdrestre/AirBnB_clone_v2/blob/master/0-setup_web_static.sh)|0. Prepare your web servers|Write a Bash script that sets up your web servers for the deployment of web_static.
-[1-pack_web_static.py](https://github.com/jdrestre/AirBnB_clone_v2/blob/master/1-pack_web_static.py)|1. Compress before sending|Write a Fabric script that generates a .tgz archive from the contents of the web_static folder of your AirBnB Clone repo, using the function do_pack.
-[101-setup_web_static.pp](https://github.com/jdrestre/AirBnB_clone_v2/blob/master/101-setup_web_static.pp)|Puppet for sets up your web servers for the deployment of web_static
+[0-setup_web_static.sh](https://github.com/jdrestre/AirBnB_clone_v2/blob/master/0-setup_web_static.sh)|0. Prepare your web servers|Write a Bash script that sets up your web servers for the deployment of `web_static`.
+[1-pack_web_static.py](https://github.com/jdrestre/AirBnB_clone_v2/blob/master/1-pack_web_static.py)|1. Compress before sending|Write a Fabric script that generates a .tgz archive from the contents of the web_static folder of your AirBnB Clone repo, using the function `do_pack`.
+[2-do_deploy_web_static.py](https://github.com/jdrestre/AirBnB_clone_v2/blob/master/2-do_deploy_web_static.py)|2. Deploy archive!|Write a Fabric script (based on the file 1-pack_web_static.py) that distributes an archive to your web servers, using the function `do_deploy`
+[101-setup_web_static.pp](https://github.com/jdrestre/AirBnB_clone_v2/blob/master/101-setup_web_static.pp)|Puppet for sets up your web servers for the deployment of `web_static`
 
 
 
