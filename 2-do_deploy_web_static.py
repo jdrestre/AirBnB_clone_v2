@@ -8,6 +8,7 @@ from datetime import datetime
 import os.path
 
 env.hosts = ['34.74.80.43', '54.89.185.132']
+env.user = 'ubuntu'
 
 
 def do_pack():
@@ -29,21 +30,18 @@ def do_pack():
 def do_deploy(archive_path):
     """Distributes an archive to your web servers
     """
-if os.path.isfile(archive_path) is False:
+    if os.path.isfile(archive_path) is False:
         return False
     file = archive_path.split("/")[-1]
     name = file.split(".")[0]
 
     if put(archive_path, "/tmp/{}".format(file)).failed is True:
         return False
-    if run("rm -rf /data/web_static/releases/{}/".
-           format(name)).failed is True:
+    if run("rm -rf /data/web_static/releases/{}/".format(name)).failed is True:
         return False
-    if run("mkdir -p /data/web_static/releases/{}/".
-           format(name)).failed is True:
+    if run("mkdir -p /data/web_static/releases/{}/".format(name)).failed is True:
         return False
-    if run("tar -xzf /tmp/{} -C /data/web_static/releases/{}/".
-           format(file, name)).failed is True:
+    if run("tar -xzf /tmp/{} -C /data/web_static/releases/{}/".format(file, name)).failed is True:
         return False
     if run("rm /tmp/{}".format(file)).failed is True:
         return False
