@@ -13,3 +13,6 @@ generate-authors.sh
 
 # Files emacs
 *~
+
+# version folder tgz file tar gzipped
+versions/
