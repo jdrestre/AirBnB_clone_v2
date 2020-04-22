@@ -16,3 +16,6 @@ generate-authors.sh
 
 # version folder tgz file tar gzipped
 versions/
+
+# Validaitor for html an css files of Holberton School
+w3c_validator.py
