@@ -26,7 +26,8 @@ Repository to study the following Topic:
 ---
 File Name|Task Name|Task Description
 ---|---|---
-[**`0-hello_route.py`**](https://github.com/jdrestre/AirBnB_clone_v2/blob/master/web_flask/0-hello_route.py), [**`__init__.py`**](https://github.com/jdrestre/AirBnB_clone_v2/blob/master/web_flask/__init__.py)|**0. Hello Flask!**|Write a script that starts a Flask web application
+[**`0-hello_route.py`**](https://github.com/jdrestre/AirBnB_clone_v2/blob/master/web_flask/0-hello_route.py), [**`__init__.py`**](https://github.com/jdrestre/AirBnB_clone_v2/blob/master/web_flask/__init__.py)|**0. Hello Flask!**|Write a script that starts a Flask web application: `/`: **display “Hello HBNB!”**
+[**`1-hbnb_route.py`**](https://github.com/jdrestre/AirBnB_clone_v2/blob/master/web_flask/1-hbnb_route.py)|**1. HBNB**|Write a script that starts a Flask web application: `/`: **display “Hello HBNB!”** and `/hbnb`: **display “HBNB”**
 
 ## Author
 
