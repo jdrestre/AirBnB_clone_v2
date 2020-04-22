@@ -59,7 +59,7 @@ def python_route(text="is cool"):
 @app.route("/number/<int:num>", strict_slashes=False)
 def number_route(num):
     """
-    Return “n is a number” only if `n` is an integer
+    Return “n is a number” only if `num` is an integer
     """
     return "{} is a number".format(num)
 
