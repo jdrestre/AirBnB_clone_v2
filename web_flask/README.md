@@ -30,6 +30,7 @@ File Name|Task Name|Task Description
 [**`1-hbnb_route.py`**](https://github.com/jdrestre/AirBnB_clone_v2/blob/master/web_flask/1-hbnb_route.py)|**1. HBNB**|Write a script that starts a Flask web application: `/`: **display “Hello HBNB!”** and `/hbnb`: **display “HBNB”**
 [**`2-c_route.py`**](https://github.com/jdrestre/AirBnB_clone_v2/blob/master/web_flask/2-c_route.py)|**1. HBNB**|Write a script that starts a Flask web application: `/`: **display “Hello HBNB!”**, `/hbnb`: **display “HBNB”** and `/c/<text>`: **display “C ” followed by the value of the text variable**
 [**`3-python_route.py`**](https://github.com/jdrestre/AirBnB_clone_v2/blob/master/web_flask/3-python_route.py)|**3. Python is cool!**|Write a script that starts a Flask web application: `/`: **display “Hello HBNB!”**, `/hbnb`: **display “HBNB”**, `/c/<text>`: **display “C ” followed by the value of the text variable** and `/python/<text>`: **display “Python ”, followed by the value of the text variable**
+[**`4-number_route.py`**](https://github.com/jdrestre/AirBnB_clone_v2/blob/master/web_flask/4-number_route.py)|**4. Is it a number?**|Write a script that starts a Flask web application: `/`: **display “Hello HBNB!”**, `/hbnb`: **display “HBNB”**, `/c/<text>`: **display “C ” followed by the value of the text variable**, `/python/<text>`: **display “Python ”, followed by the value of the text variable** and `/number/<n>`: **display “n is a number” only if n is an integer**
 
 ## Author
 
