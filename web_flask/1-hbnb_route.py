@@ -25,7 +25,7 @@ def hbnb_route():
     """
     Return string “HBNB”
     """
-    return "HBNB!"
+    return "HBNB"
 
 
 if __name__ == "__main__":
