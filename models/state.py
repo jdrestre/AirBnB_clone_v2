@@ -1,5 +1,6 @@
 #!/usr/bin/python3
 """This is the state class"""
+import models
 from models.base_model import BaseModel, Base
 from models.city import City
 from os import getenv
@@ -25,16 +26,16 @@ class State(BaseModel, Base):
     else:
         name = ''
 
-    @property
-    def cities(self):
-        """Returns the list of `City` instances
-        with `state_id` equals to the current
-        """
+        @property
+        def cities(self):
+            """Returns the list of `City` instances
+            with `state_id` equals to the current
+            """
 
-        cities = list()
+            cities = list()
 
-        for _id, city in models.storage.all(City).items():
-            if city.state_id == self.id:
-                cities.append(city)
+            for _id, city in models.storage.all(City).items():
+                if city.state_id == self.id:
+                    cities.append(city)
 
-        return cities
+            return cities

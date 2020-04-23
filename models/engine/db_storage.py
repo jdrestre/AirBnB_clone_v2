@@ -96,3 +96,7 @@ class DBStorage:
                 structure[key] = _row
 
             return structure
+
+    def close(self):
+        """Close the working SQLAlchemy session."""
+        self.__session.close()
